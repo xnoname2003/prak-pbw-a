@@ -194,32 +194,33 @@
 
 ## C. Bagian 3: Integrasi dengan GitHub
 
-   1. Membuat Repository di GitHub
-      <img width="" height="" alt="create repository" src="https://github.com/user-attachments/assets/9b284bde-cdf8-47be-b58c-6d89af4a323b" />
+   ### 1. Membuat Repository di GitHub
 
-   2. Menghubungkan Repository Lokal dengan GitHub
+   <img width="" height="" alt="create repository" src="https://github.com/user-attachments/assets/9b284bde-cdf8-47be-b58c-6d89af4a323b" />
+
+   ### 2. Menghubungkan Repository Lokal dengan GitHub
    
-      1) Jalankan perintah berikut untuk menambahkan repository GitHub sebagai remote. Salin link repository GitHub.
-         ```
-         git remote add origin https://github.com/youraccount/your-project
-         ```
-         <img width="" height="" alt="git remote" src="https://github.com/user-attachments/assets/4ec37c2d-7eb4-4057-952e-ead5802c10a5" />
+   1) Jalankan perintah berikut untuk menambahkan repository GitHub sebagai remote. Salin link repository GitHub.
+      ```
+      git remote add origin https://github.com/youraccount/your-project
+      ```
+      <img width="" height="" alt="git remote" src="https://github.com/user-attachments/assets/4ec37c2d-7eb4-4057-952e-ead5802c10a5" />
 
-      2) Atur nama branch utama menjadi `main`:
-         ```
-         git branch -M main
-         ```
-         <img width="" height="" alt="Ubah branch jadi main" src="https://github.com/user-attachments/assets/0f39e457-ebaf-4f74-8f31-50e6719c5121" />
+   2) Atur nama branch utama menjadi `main`:
+      ```
+      git branch -M main
+      ```
+      <img width="" height="" alt="Ubah branch jadi main" src="https://github.com/user-attachments/assets/0f39e457-ebaf-4f74-8f31-50e6719c5121" />
 
-      3) Unggah proyek ke GitHub dengan perintah:
-         ```
-         git push -u origin main
-         ```
-         <img width="" height="" alt="git push" src="https://github.com/user-attachments/assets/b51c9e69-1f4e-4d69-a341-6e90bf488b69" />
+   3) Unggah proyek ke GitHub dengan perintah:
+      ```
+      git push -u origin main
+      ```
+      <img width="" height="" alt="git push" src="https://github.com/user-attachments/assets/b51c9e69-1f4e-4d69-a341-6e90bf488b69" />
 
-      4) Setelah itu refresh GitHub, maka file yang sudah dibuat akan muncul di dalam repository GitHub yang sudah dibuat dan repository lokal akan terhubung dengan repository GitHub, dan seluruh file proyek akan tersedia secara online.
+   4) Setelah itu refresh GitHub, maka file yang sudah dibuat akan muncul di dalam repository GitHub yang sudah dibuat dan repository lokal akan terhubung dengan repository GitHub, dan seluruh file proyek akan tersedia secara online.
       
-         <img width="" height="" alt="Hasil Pembuatan File di GitHub" src="https://github.com/user-attachments/assets/c17c7b86-7e2b-491e-a5cb-f56be9de30ef" />
+      <img width="" height="" alt="Hasil Pembuatan File di GitHub" src="https://github.com/user-attachments/assets/c17c7b86-7e2b-491e-a5cb-f56be9de30ef" />
 
 ---
 
