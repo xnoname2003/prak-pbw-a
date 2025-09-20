@@ -60,7 +60,7 @@
       ```
       git config --global user.name "Your Name"
       ```
-      <img width="759" height="" alt="Konfigurasi Nama" src="https://github-production-user-asset-6210df.s3.amazonaws.com/77475645/491905411-3f10381e-3f88-44c7-af24-76f5f3162881.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250920%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250920T105142Z&X-Amz-Expires=300&X-Amz-Signature=9d0da7ea982a6f5c9d81e1fcf0ffc535fb5fc34d8da8498968ef9eaa5ee5f991&X-Amz-SignedHeaders=host" />
+      <img width="759" height="" alt="Konfigurasi Nama" src="https://github.com/user-attachments/assets/3f10381e-3f88-44c7-af24-76f5f3162881" />
 
    2) Setelah itu, atur alamat email yang akan digunakan dengan perintah berikut.
       ```
