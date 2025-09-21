@@ -293,3 +293,5 @@
    - `git pull origin main` = memperbarui branch main lokal dengan versi terbaru dari GitHub.
    <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/02b1ef5f-8111-4068-bbef-039685c88661" />
    <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/d3ee34f5-691d-41f3-9f72-8e63c1a030b4" />
+
+---
