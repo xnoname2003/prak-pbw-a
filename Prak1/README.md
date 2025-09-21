@@ -226,3 +226,9 @@
 
 ## D. Bagian 4: Workflow Kerja Kelompok di GitHub (Feature Branch Workflow)
 
+   ### 1. Clone Repository (sekali di awal)
+   Jalankan perintah berikut untuk **clone** atau menduplikat repository ke dalam folder `Prak1`.
+   ```
+   git clone URL_REPOSITORY
+   ```
+   <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/bac6d5e5-6ab6-46de-94ac-406fa3cd5556" />
