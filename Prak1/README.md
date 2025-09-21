@@ -232,3 +232,64 @@
    git clone URL_REPOSITORY
    ```
    <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/bac6d5e5-6ab6-46de-94ac-406fa3cd5556" />
+
+   ### 2. Selalu update branch main sebelum mulai kerja
+   Untuk memastikan kamu bekerja dari versi terbaru di `main`, jalankan perintah berikut:
+   ```
+   git checkout main
+   git pull origin main
+   ```
+   - `git checkout main` = pindah ke branch `main`.
+   - `git pull origin main` = mengambil update terbaru dari GitHub ke branch lokal.
+   <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/00422d8c-ce6c-4948-8371-b7a95ccffa4c" />
+   <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/e3c374df-8563-4dc1-8a3a-ef9364ab2b10" />
+
+   ### 3. Buat branch baru untuk setiap fitur
+   Untuk memisahkan pekerjaan fitur baru agar tidak bercampur dengan branch lain, jalankan perintah berikut:
+   ```
+   git checkout -b nama-fitur
+   ```
+   - `git checkout -b nama-fitur` = membuat branch baru dan langsung pindah ke branch tersebut.
+   <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/d17a00f7-8c8d-4f75-b46f-f36d69d31f9e" />
+
+   ### 4. Kerjakan fitur, lalu add & commit perubahan
+   Untuk menyimpan perubahan kode yang sudah kamu kerjakan, jalankan perintah berikut:
+   ```
+   git add .
+   git commit -m "pesan commit yang jelas"
+   ```
+   - `git add .` = menandai semua file yang berubah untuk disimpan.
+   - `git commit -m "pesan commit yang jelas"` = menyimpan perubahan dengan pesan yang menjelaskan perubahan tersebut.
+   <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/7f1b74e8-6e03-4685-a338-477d33e82b72" />
+   <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/e5c6e781-ca82-49f1-8fb3-e71fede359fe" />
+
+   ### 5. Push branch fitur ke GitHub
+   Untuk mengirim branch lokal ke GitHub agar bisa dilihat tim, jalankan perintah berikut:
+   ```
+   git push origin nama-fitur-baru
+   ```
+   - `git push origin nama-fitur-baru` = mengirim branch fitur-baru ke repository GitHub.
+   <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/a59ca8da-8c33-44e5-825e-43c0bceda63d" />
+
+   ### 6. Buat Pull Request (PR) di GitHub
+   Untuk mengajukan perubahan agar bisa direview sebelum digabung ke `main`.
+   - Klik *Compare & pull request*
+   - Isi judul dan deskripsi singkat
+   - Tetapkan *reviewer*
+   - Klik *Create pull request*
+
+   ### 7. Review dan Merge
+   Untuk memastikan kode dicek bersama sebelum masuk ke branch utama.
+   - Reviewer meninjau kode
+   - Ketua tim melakukan *Merge pull request* setelah disetujui
+
+   ### 8. Sinkronisasi ulang setelah merge
+   Untuk memperbarui branch lokal dengan perubahan terbaru dari `main`, jalankan perintah berikut:
+   ```
+   git checkout main
+   git pull origin main
+   ```
+   - `git checkout main` = pindah kembali ke branch utama.
+   - `git pull origin main` = memperbarui branch main lokal dengan versi terbaru dari GitHub.
+   <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/02b1ef5f-8111-4068-bbef-039685c88661" />
+   <img width="" height="" alt="git clone" src="https://github.com/user-attachments/assets/d3ee34f5-691d-41f3-9f72-8e63c1a030b4" />
