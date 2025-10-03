@@ -187,8 +187,10 @@ http://localhost:8000
 
 Halaman utama menampilkan sambutan sederhana kepada pengunjung blog LaraPress.
 
+### Halaman Tentang Kami
 <img width="1470" height="924" alt="Image" src="https://github.com/user-attachments/assets/70be2f5e-cc79-4f67-998f-bc14f46c0edb" />
 Halaman Tentang LaraPress berisi informasi tentang LaraPress sebagai proyek pembelajaran
 
+### Halaman Kontak
 <img width="1470" height="924" alt="Image" src="https://github.com/user-attachments/assets/ffc61079-b836-4873-9d33-83250dd12eb7" />
 Halaman Kontak LarapPress berisi informasi kontak pengembang
